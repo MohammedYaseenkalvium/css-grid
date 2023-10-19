@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.collage-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Adjust the gap between grid items */
+    grid-auto-rows: minmax(100px, auto); /* Varying row heights */
+    background-color: #333;
+}
+
+.hokage-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #FF0000, #FFFFFF);}
+
+
+.hokage-image {
+    max-width: 160px;
+    margin: 0 auto 10px;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+}
